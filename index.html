@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with login & Regestration form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c9f5871d83.js" crossorigin="anonymous"></script>
+    <link  href="css/2WTYpVr2qtKqBiKm6LiuXQ13036.jpeg" rel="icon">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/unicons.css"> -->
+   <!-- <i class="uil uil-comments"></i> -->
+</head>
+<body>
+    <!--Header-->
+    <header class="header">
+        <nav class="nav">
+            <!-- <i class="uil uil-slack" style="color: white;font-size: 50px;position: relative;left: 150px;"></i> -->
+            <a href="#" class="nave_logo">BlackRock</a>
+            <ul class="nav_items">
+                <li class="nav_item">
+                    <a href="" class="nav_link">Home</a>
+                    <a href="" class="nav_link">Products</a>
+                    <a href="" class="nav_link">Services</a>
+                    <a href="" class="nav_link">Contact</a>
+                </li>
+            </ul>
+            <button class="button" style="cursor: pointer;" id="form-open">Login</button>
+        </nav>
+    </header>
+   
+   <!--Home--> 
+
+   <section class="home">
+    <div class="form-container">
+        <i class="uil uil-times form-close"></i>
+        <!-- login-form -->
+        <div class="form login-form">
+            <form action="#" method="post" id="register">
+                <h2>Login</h2>
+                <div class="input-box">
+                    <input class="email" type="email" placeholder="Enter your email address" required/>
+                    <i class="uil uil-envelope-alt email"></i>
+                </div>
+                <div class="input-box">
+                    <input class="pass" type="password" placeholder="Enter your password" minlength="9" maxlength="20" required/>
+                    <i class="uil uil-lock password"></i>
+                    <i class="uil uil-eye-slash pw-hide"></i>
+                </div>
+
+                <div class="option-feild">
+                    <span class="checkbox">
+                        <input type="checkbox" id="check">
+                        <label for="check">Remember Me</label>
+                    </span>
+                    <a href="#" class="forgot_pw">Forgot Password?</a>
+                </div>
+
+                <button class="button" >Login Now</button>
+
+                <div class="login_signup">
+                    Don't have an account?<a href="#" id="signup">Signup</a>
+                </div>
+            </form>
+        </div>
+
+        <!-- signup-form -->
+        <div class="form signup-form">
+            <form action="#" method="post" id="register">
+                <h2>SignUp</h2>
+                <div class="input-box">
+                    <input class="email" type="email" placeholder="Enter your email address" required/>
+                    <i class="uil uil-envelope-alt email"></i>
+                </div>
+                <div class="input-box">
+                    <input class="pass" type="password" placeholder="Create strong password" minlength="9" maxlength="20" required/>
+                    <i class="uil uil-lock password"></i>
+                    <i class="uil uil-eye-slash pw-hide"></i>
+                </div>
+                <div class="input-box">
+                    <input class="pass" type="password" placeholder="Confirm your password" minlength="9" maxlength="20" required/>
+                    <i class="uil uil-lock password"></i>
+                    <i class="uil uil-eye-slash pw-hide"></i>
+                </div>
+
+                
+
+                <button class="button">SignUp Now</button>
+
+                <div class="login_signup">
+                    Alredy have an account?<a href="#" id="login">Login</a>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</section>
+  <script src="script.js"></script>
+</body>
+</html>
